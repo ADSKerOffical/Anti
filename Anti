@@ -163,7 +163,6 @@ setreadonly(mt, true)
 end
 
 coroutine.wrap(Anti2)()
-coroutine.wrap(AntiHttpSpymm)()
 coroutine.wrap(CheatA)()
 coroutine.wrap(CheatB)()
 coroutine.wrap(CheatC)()
